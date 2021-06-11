@@ -1,0 +1,134 @@
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\WPFClient.exe.config
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\WPFClient.exe
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\WPFClient.pdb
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\ServerProg.exe
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\ServerProg.pdb
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\ServerProg.exe.config
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.csprojAssemblyReference.cache
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\MainWindow.g.cs
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\App.g.cs
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient_MarkupCompile.cache
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient_MarkupCompile.lref
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\MainWindow.baml
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.g.resources
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.Properties.Resources.resources
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.csproj.GenerateResource.cache
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.csproj.CoreCompileInputs.cache
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.csproj.CopyComplete
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.exe
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\obj\Debug\WPFClient.pdb
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\DC Worksheet 1.dll
+C:\Users\George\source\repos\DC Worksheet 1\WPFClient\bin\Debug\DC Worksheet 1.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\MainWindow.g.cs
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\App.g.cs
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient_MarkupCompile.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient_MarkupCompile.lref
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.exe
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\WPFClient.exe.config
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\WPFClient.exe
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\WPFClient.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\ServerProg.exe
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\DB.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\DBDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\ServerProg.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\ServerProg.exe.config
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\bin\Debug\DB.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\MainWindow.baml
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.g.resources
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.Properties.Resources.resources
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.csproj.GenerateResource.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\WPFClient\obj\Debug\WPFClient.csproj.CopyComplete
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\WPFClient.exe.config
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\WPFClient.exe
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\WPFClient.pdb
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\BizDLL.dll
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\ServerProg.exe
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\DB.dll
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\BizDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\ServerProg.pdb
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\ServerProg.exe.config
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\George\Desktop\Worksheet_2\WPFClient\bin\Debug\DB.pdb
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.csprojAssemblyReference.cache
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\MainWindow.g.cs
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\App.g.cs
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient_MarkupCompile.cache
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient_MarkupCompile.lref
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\MainWindow.baml
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.g.resources
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.Properties.Resources.resources
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.csproj.GenerateResource.cache
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.csproj.CopyComplete
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.exe
+C:\Users\George\Desktop\Worksheet_2\WPFClient\obj\Debug\WPFClient.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\WPFClient.exe.config
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\WPFClient.exe
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\WPFClient.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\BizDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\ServerProg.exe
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\DB.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\BizDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\DBDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\ServerProg.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\ServerProg.exe.config
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\bin\Debug\DB.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\MainWindow.g.cs
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\App.g.cs
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient_MarkupCompile.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient_MarkupCompile.lref
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\MainWindow.baml
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.g.resources
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.Properties.Resources.resources
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.csproj.GenerateResource.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.csproj.CopyComplete
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.exe
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\WPFClient\obj\Debug\WPFClient.pdb
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.csprojAssemblyReference.cache
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\MainWindow.g.cs
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\App.g.cs
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient_MarkupCompile.cache
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient_MarkupCompile.lref
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\WPFClient.exe.config
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\WPFClient.exe
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\WPFClient.pdb
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\API Classes.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\BizDLL.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\RestSharp.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\System.Web.Http.dll
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\API Classes.pdb
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\BizDLL.pdb
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\RestSharp.xml
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\George\Desktop\Worksheet_3\WPFClient\bin\Debug\System.Web.Http.xml
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\MainWindow.baml
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.g.resources
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.Properties.Resources.resources
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.csproj.GenerateResource.cache
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.csproj.CopyComplete
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.exe
+C:\Users\George\Desktop\Worksheet_3\WPFClient\obj\Debug\WPFClient.pdb

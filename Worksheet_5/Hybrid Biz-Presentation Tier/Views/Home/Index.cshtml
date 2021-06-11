@@ -1,0 +1,85 @@
+﻿<!--
+Filename: Index.cshtml
+Project:  DC Assignment 2 (Practical 5)
+Purpose:  View within Business Tier responsible of Home Page
+Author:   George Aziz (19765453)
+Date:     08/05/2021
+-->
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<html lang="en-au">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Bank of Aziz</title>
+</head>
+
+<body>
+    <div style="opacity: 100%;">
+        <br /><br />
+        <button style="border-radius: 1vw; border-color: #e96363; background-color: #ffffff;" onclick="Users()"><strong>Users</strong></button>
+        <button style="border-radius: 1vw; border-color: #2c62b7; background-color: #ffffff;" onclick="Accounts()"><strong>Accounts</strong></button>
+        <button style="border-radius: 1vw; border-color: #58c865; background-color: #ffffff;" class="button" onclick="Transactions()"><strong>Transactions</strong></button>
+        <br /><br />
+        <div class="Content"> </div>
+    </div>
+
+    <script>
+        function Users() {
+            console.log("Retrieving Users Page...");
+            $.ajax({
+                url: 'https://localhost:44336/Home/Users',
+                type: 'get',
+                processData: false,
+                success: function (data, textStatus, jQxhr) {
+                    $('.Content').html(data);
+                    $('body').css('background', '#F7BEC0');
+                },
+                error: function (jQxhr, textStatus, errorThrown) {
+                    console.log("ERROR: Unable to retrieve Users Page");
+                    console.log(errorThrown);
+                }
+            });
+        }
+
+        function Accounts() {
+            console.log("Retrieving Accounts Page...");
+            $.ajax({
+                url: 'https://localhost:44336/Home/Accounts',
+                type: 'get',
+                processData: false,
+                success: function (data, textStatus, jQxhr) {
+                    $('.Content').html(data);
+                    $('body').css('background', '#A7C7E7');
+                },
+                error: function (jQxhr, textStatus, errorThrown) {
+                    console.log("ERROR: Unable to retrieve Accounts Page");
+                    console.log(errorThrown);
+                }
+            });
+        }
+
+        function Transactions() {
+            console.log("Retrieving Transactions Page...");
+            $.ajax({
+                url: 'https://localhost:44336/Home/Transactions',
+                type: 'get',
+                processData: false,
+                success: function (data, textStatus, jQxhr) {
+                    $('.Content').html(data);
+                    $('body').css('background', '#C1E1C1');
+                },
+                error: function (jQxhr, textStatus, errorThrown) {
+                    console.log("ERROR: Unable to retrieve Transactions Page");
+                    console.log(errorThrown);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\ServerProg.exe.config
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\ServerProg.exe
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\ServerProg.pdb
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\obj\Debug\ServerProg.csproj.CoreCompileInputs.cache
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\obj\Debug\ServerProg.csproj.CopyComplete
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\obj\Debug\ServerProg.exe
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\obj\Debug\ServerProg.pdb
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\DC Worksheet 1.dll
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\bin\Debug\DC Worksheet 1.pdb
+C:\Users\George\source\repos\DC Worksheet 1\Remoting Server\obj\Debug\ServerProg.csprojAssemblyReference.cache

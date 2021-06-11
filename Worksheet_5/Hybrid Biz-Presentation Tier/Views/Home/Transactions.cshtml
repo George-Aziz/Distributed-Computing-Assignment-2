@@ -1,0 +1,102 @@
+﻿<!--
+Filename: Transactions.cshtml
+Project:  DC Assignment 2 (Practical 5)
+Purpose:  View within Business Tier responsible of Transactions Page
+Author:   George Aziz (19765453)
+Date:     06/05/2021
+-->
+
+@{
+    ViewBag.Title = "Transactions";
+}
+
+<html lang="en-au">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Bank of Aziz</title>
+</head>
+<body>
+    <!-- CREATE TRANSACTION FORM-->
+    <br />
+    <form>
+        <label><strong>Create Transaction</strong></label>
+        <br /><br />
+        <input style="border-radius: 0.5vw;" type="text" class="sendIDCreate" name="sendIDCreate" placeholder="Sender ID" />
+        <br /><br />
+        <input style="border-radius: 0.5vw;" type="text" class="recIDCreate" name="recIDCreate" placeholder="Receiver ID" />
+        <br /><br />
+        <input style="border-radius: 0.5vw;" type="text" class="amtCreate" name="amtCreate" placeholder="Amount To Transfer" />
+    </form>
+    <br />
+    <button style="border-radius: 1vw; border-color: #58c865; background-color: #ffffff;" class="CreateBtn" onclick="CreateTransaction()">Create Transaction</button>
+    <br /><br /><br /><br />
+
+    <!-- GET TRANSACTIONS FORM-->
+    <button style="border-radius: 1vw; border-color: #58c865; background-color: #ffffff;" class="GetBtn" onclick="GetTransaction()">Get Most Recent Transactions</button>
+    <br /><br />
+    <form>
+        <label><strong>Transactions</strong></label>
+        <br /><br />
+        <ol class="TransactionsList">
+        </ol>
+    </form>
+
+    <br /><br /><br /><br />
+
+    <script>
+        //CreateTransaction function that creates a transaction depending on inputted details
+        function CreateTransaction() {
+            if ($('.sendIDCreate').val() == null || $('.sendIDCreate').val().trim() === '' || $('.recIDCreate').val() == null || $('.recIDCreate').val().trim() === ''
+               ||$('.amtCreate').val() == null || $('.amtCreate').val().trim() === '') {
+                alert("Sender/Receiver ID & Amount cannot be empty!");
+            }
+            else {
+                console.log("Creating Transaction...");
+                $.ajax({
+                    url: '/api/BankAPI/CreateTransaction/' + $('.amtCreate').val() + '/' + $('.sendIDCreate').val() + '/' + $('.recIDCreate').val(),
+                    type: 'post',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        //Notifies User that the transaction was succesfull 
+                        alert("Succesfully Created Transation -\nFrom Account: " + data.senderID + "\nTo Account:" + data.receiverID + "\nAmount: $" + data.amount + "\n\nTRANSACTION ID: " + data.transactionID);
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        console.log(errorThrown);
+                        alert(jQxhr.responseText);
+                    }
+                });
+            }
+        }
+
+        //GetTransaction function that retrieves all transactions made at current session
+        function GetTransaction() {
+            console.log("Getting Transaction...");
+            $.ajax({
+                url: '/api/BankAPI/GetTransactions',
+                type: 'get',
+                contentType: 'application/json',
+                processData: false,
+                success: function (data, textStatus, jQxhr) {
+                    console.log(data);
+                    $('.TransactionsList').empty();
+                    //For each transaction, add to list for user to see when they click get transactions
+                    data.forEach(curElement => {
+                        var item = document.createElement('li');
+                        var output = "ID: " + curElement.transactionID + " | Sender Account ID: " + curElement.senderID + " | Receiver Account ID: " + curElement.senderID + " | Amount: $" + curElement.amount;
+                        item.innerHTML += output;
+                        $('.TransactionsList').append(item);
+                    });
+                },
+                error: function (jQxhr, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                    alert(jQxhr.responseText);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

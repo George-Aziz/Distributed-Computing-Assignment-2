@@ -1,0 +1,5 @@
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_7\Transaction Classes\bin\Debug\Transaction Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_7\Transaction Classes\bin\Debug\Transaction Classes.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_7\Transaction Classes\obj\Debug\Transaction Classes.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_7\Transaction Classes\obj\Debug\Transaction Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_7\Transaction Classes\obj\Debug\Transaction Classes.pdb

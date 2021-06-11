@@ -1,0 +1,54 @@
+﻿<Window x:Class="Client_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client_GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="810"
+        Closing="Window_Closing">
+    <Grid Margin="0,0,-8,0">
+        <Separator HorizontalAlignment="Left" Height="25" Margin="0,125,0,0" VerticalAlignment="Top" Width="624"/>
+        <ListView Name="BlockchainView" HorizontalAlignment="Left" Height="206" Margin="10,203,0,0" VerticalAlignment="Top" Width="599">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Block ID" DisplayMemberBinding="{Binding BlockID}"/>
+                    <GridViewColumn Header="Sender Wallet ID" DisplayMemberBinding="{Binding WalletIDFrom}"/>
+                    <GridViewColumn Header="Receiver Wallet ID" DisplayMemberBinding="{Binding WalletIDTo}"/>
+                    <GridViewColumn Header="Amount" DisplayMemberBinding="{Binding Amount}"/>
+                    <GridViewColumn Header="Offset" DisplayMemberBinding="{Binding Offset}"/>
+                    <GridViewColumn Header="Previous Block Hash" DisplayMemberBinding="{Binding PrevHash}"/>
+                    <GridViewColumn Header="Hash" DisplayMemberBinding="{Binding Hash}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBlock HorizontalAlignment="Left" Margin="10,150,0,0" TextWrapping="Wrap" Text="Blockchain" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <TextBlock Name="ChainCount" HorizontalAlignment="Left" Margin="9,182,0,0" TextWrapping="Wrap" Text="Blockchain count: 0" VerticalAlignment="Top"/>
+        <Separator HorizontalAlignment="Left" Height="26" Margin="412,195,-24,0" VerticalAlignment="Top" Width="422" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Button Name="CreateNewTransaction" Content="Create Transaction" HorizontalAlignment="Left" Margin="491,102,0,0" VerticalAlignment="Top" Width="118" Click="CreateNewTransaction_Click" Height="23"/>
+        <TextBox Name="WalletIDTo" HorizontalAlignment="Left" Height="23" Margin="136,66,0,0" TextWrapping="Wrap" Text="Wallet ID" VerticalAlignment="Top" Width="308"/>
+        <Label Content="Send To Wallet ID:" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="AmountInput" HorizontalAlignment="Left" Height="23" Margin="136,102,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Width="308"/>
+        <Label Content="Transfer Amount:" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Create Transaction" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="637,10,0,0" TextWrapping="Wrap" Text="Active Wallets:" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <ListView Name="WalletBalancesView" HorizontalAlignment="Left" Height="323" Margin="637,86,0,0" VerticalAlignment="Top" Width="145">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Wallet ID" DisplayMemberBinding="{Binding WalletID}" Width="40"/>
+                    <GridViewColumn Header="Balance" DisplayMemberBinding="{Binding Balance}" Width="105"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Name="WalletIDLabel" Content="Your Wallet ID: " HorizontalAlignment="Left" Margin="637,48,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

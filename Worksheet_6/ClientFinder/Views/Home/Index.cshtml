@@ -1,0 +1,58 @@
+﻿<!--
+Filename: Index.cshtml
+Project:  DC Assignment 2 (Practical 6)
+Purpose:  View to display client leaderboard
+Author:   George Aziz (19765453)
+Date:     16/05/2021
+-->
+
+<html lang="en-au">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Peer To Peer Network Leaderboard</title>
+</head>
+
+<body onload="UpdateLeaderboard()">
+    <!-- Leaderboard list-->
+    <br /><br /><br />
+    <form>
+        <ol class="LeaderBoardList"> </ol>
+    </form>
+    <br /><br /><br />
+
+    <script>
+        //Updates leaderboard for clients
+        function UpdateLeaderboard() {
+            setInterval(function () {
+                console.log("Updating Leaderboard..");
+                $.ajax({
+                    url: '/api/ClientAPI/RetrieveClients',
+                    type: 'get',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        $('.LeaderBoardList').empty();
+                        //Inserts client list into leaderboard sorted
+                        var obj = data;
+                        obj.sort(function (a, b) { return b.FinishedJobsCount - a.FinishedJobsCount })
+                        obj.forEach(curElement => {
+                            var item = document.createElement('li');
+                            var output = "Client: " + curElement.Address + ":" + curElement.Port + " | Jobs Finished: " + curElement.FinishedJobsCount;
+                            item.innerHTML += output;
+                            $('.LeaderBoardList').append(item);
+                        });
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        alert(jQxhr.responseText);
+                        console.log(errorThrown);
+                    }
+                });
+            }, 3000); //Calls this method every 3 seconds
+
+        }
+    </script>
+</body>
+</html>

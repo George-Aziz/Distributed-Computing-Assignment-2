@@ -1,0 +1,12 @@
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\Business.exe.config
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\Business.exe
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\Business.pdb
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\BizDLL.dll
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\BizDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\Business\bin\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\George\Desktop\Worksheet_2\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_2\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\George\Desktop\Worksheet_2\Business\obj\Debug\Business.exe
+C:\Users\George\Desktop\Worksheet_2\Business\obj\Debug\Business.pdb

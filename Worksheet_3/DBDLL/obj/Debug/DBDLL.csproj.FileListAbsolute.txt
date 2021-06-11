@@ -1,0 +1,29 @@
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DBDLL\bin\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DBDLL\bin\Debug\DBDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DBDLL\obj\Debug\DBDLL.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DBDLL\obj\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DBDLL\obj\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\DBDLL\bin\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_2\DBDLL\bin\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\DBDLL\obj\Debug\DBDLL.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_2\DBDLL\obj\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_2\DBDLL\obj\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_2\DBDLL\obj\Debug\DBDLL.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\DBDLL\bin\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\DBDLL\bin\Debug\DBDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\DBDLL\obj\Debug\DBDLL.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\DBDLL\obj\Debug\DBDLL.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\DBDLL\obj\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_2\DBDLL\obj\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_3\DBDLL\bin\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_3\DBDLL\bin\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_3\DBDLL\obj\Debug\DBDLL.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_3\DBDLL\obj\Debug\DBDLL.dll
+C:\Users\George\Desktop\Worksheet_3\DBDLL\obj\Debug\DBDLL.pdb
+C:\Users\George\Desktop\Worksheet_3\DBDLL\obj\Debug\DBDLL.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_3\DBDLL\bin\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_3\DBDLL\bin\Debug\DBDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_3\DBDLL\obj\Debug\DBDLL.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_3\DBDLL\obj\Debug\DBDLL.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_3\DBDLL\obj\Debug\DBDLL.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_3\DBDLL\obj\Debug\DBDLL.csprojAssemblyReference.cache

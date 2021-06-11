@@ -1,0 +1,141 @@
+﻿<!--
+Filename: Accounts.cshtml
+Project:  DC Assignment 2 (Practical 4)
+Purpose:  View within Business Tier responsible of Accounts Page
+Author:   George Aziz (19765453)
+Date:     06/05/2021
+-->
+
+@{
+    ViewBag.Title = "Accounts";
+}
+<html lang="en-au">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Bank of Aziz</title>
+</head>
+
+<body>
+    <!-- GET ACCOUNT FORM-->
+    <br />
+    <form>
+        <label><strong>Get Account Balance</strong></label>
+        <br /><br />
+        <input type="text" class="accID" name="accID" placeholder="Account ID" />
+        <br /><br />
+        <input style="background-color: #d5d5d5;" type="text" class="bal" name="bal" placeholder="Balance" readonly />
+        <br /><br />
+    </form>
+    <button class="submitBtn" onclick="GetAccount()">Get Account</button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- DEPOSIT MONEY FORM-->
+    <form>
+        <label><strong>Deposit Money</strong></label>
+        <br /><br />
+        <input type="text" class="accIDDeposit" name="accIDDeposit" placeholder="Enter Account ID" />
+        <br /><br />
+        <input type="text" class="amtDeposit" name="amtDeposit" placeholder="Amount to Deposit" />
+        <br /><br />
+    </form>
+    <button class="DepositBtn" onclick="Deposit()">Deposit</button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- WITHDRAW MONEY FORM-->
+    <form>
+        <label><strong>Withdraw Money</strong></label>
+        <br /><br />
+        <input type="text" class="accIDWithdraw" name="accIDWithdraw" placeholder="Enter Account ID" pattern="[0-9]+" />
+        <br /><br />
+        <input type="text" class="amtWithdraw" name="amtWithdraw" placeholder="Amount to Withdraw" />
+        <br /><br />
+    </form>
+    <button class="WithdrawBtn" onclick="Withdraw()">Withdraw</button>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script>
+        //GetAccount function that retrieves an account depending on inputted details
+        function GetAccount() {
+            if ($('.accID').val() == null || $('.accID').val().trim() === '') {
+                alert("Account ID cannot be empty!");
+            }
+            else {
+                console.log("Getting Account..");
+                $.ajax({
+                    url: "/api/BankAPI/Account/" + $('.accID').val(),
+                    type: 'get',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        //Updates Empty Text Boxes with Account Details
+                        $('.accID').val(data.accID);
+                        $('.bal').val(data.accBal);
+                        console.log("Found account " + val(data.accID));
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        alert(jQxhr.responseText);
+                        console.log(errorThrown);
+                    }
+                });
+            }
+        }
+        //Deposit function that deposits money into an account depending on inputted details
+        function Deposit() {
+            if ($('.accIDDeposit').val() == null || $('.accIDDeposit').val().trim() === '' || $('.amtDeposit').val() == null || $('.amtDeposit').val().trim() === '') {
+                alert("Account ID & Amount cannot be empty!");
+            }
+            else {
+                console.log("Depositing...");
+                $.ajax({
+                    url: "/api/BankAPI/Deposit/" + $('.accIDDeposit').val() + "/" + $('.amtDeposit').val(),
+                    type: 'post',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        //Notifies user that the Deposit was succesfull
+                        alert("Deposit of $" + data + " Successfull to account number " + $('.accIDDeposit').val());
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        console.log(errorThrown);
+                        alert(jQxhr.responseText);
+                    }
+                });
+            }
+        }
+
+        //Withdraw function that withdraws money from an account depending on inputted details
+        function Withdraw() {
+            if ($('.accIDWithdraw').val() == null || $('.accIDWithdraw').val().trim() === '' || $('.amtWithdraw').val() == null || $('.amtWithdraw').val().trim() === '') {
+                alert("Account ID & Amount cannot be empty!");
+            }
+            else {
+                console.log("Withdrawing...");
+                $.ajax({
+                    url: "/api/BankAPI/Withdraw/" + $('.accIDWithdraw').val() + "/" + $('.amtWithdraw').val(),
+                    type: 'post',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        //Notifies user that the Withdrawal was succesfull
+                        alert("Withdraw of $" + data + " Successfull from account number " + $('.accIDWithdraw').val());
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        console.log(errorThrown);
+                        alert(jQxhr.responseText);
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

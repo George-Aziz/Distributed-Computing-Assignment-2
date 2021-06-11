@@ -1,0 +1,9 @@
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\bin\Debug\Client API Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\bin\Debug\Client API Classes.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\bin\Debug\Job Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\bin\Debug\Job Classes.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\obj\Debug\Client API Classes.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\obj\Debug\Client API Classes.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\obj\Debug\Client API Classes.csproj.CopyComplete
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\obj\Debug\Client API Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_6\Client API Classes\obj\Debug\Client API Classes.pdb

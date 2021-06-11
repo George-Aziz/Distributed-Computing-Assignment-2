@@ -1,0 +1,108 @@
+﻿<!--
+Filename: Users.cshtml
+Project:  DC Assignment 2 (Practical 4)
+Purpose:  View within Business Tier responsible of Users Page
+Author:   George Aziz (19765453)
+Date:     06/05/2021
+-->
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<html lang="en-au">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Bank of Aziz</title>
+</head>
+<body>
+    <!-- GET USER FORM-->
+    <br />
+    <form>
+        <label><strong>Get User</strong></label>
+        <br /><br />
+        <input type="text" class="userID" name="userID" placeholder="User ID" />
+        <br /><br />
+        <input style="background-color: #d5d5d5;" type="text" class="fNameGet" name="fNameGet" placeholder="First Name" readonly />
+        <br /><br />
+        <input style="background-color: #d5d5d5;" type="text" class="lNameGet" name="lNameGet" placeholder="Last Name" readonly />
+        <br /><br />
+    </form>
+    <button class="GetBtn" onclick="GetUser()">Get User</button>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- CREATE USER & ACCOUNT FORM-->
+    <form>
+        <label><strong>Create User & Account</strong></label>
+        <br /><br />
+        <input type="text" class="fNameCreate" name="fNameCreate" placeholder="First Name" />
+        <br /><br />
+        <input type="text" class="lNameCreate" name="lNameCreate" placeholder="Last Name" />
+        <br /><br />
+    </form>
+    <button class="CreateBtn" onclick="CreateUser()">Create User</button>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script>
+        //GetUser function that retrieves a user depending on inputted details
+        function GetUser() {
+            if ($('.userID').val() == null || $('.userID').val().trim() === '') {
+                alert("User ID cannot be empty!");
+            }
+            else {
+                console.log("Getting User...");
+                $.ajax({
+                    url: '/api/BankAPI/GetUser/' + $('.userID').val(),
+                    type: 'get',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        //Updates Empty Text Boxes with User Details
+                        $('.fNameGet').val(data.firstName);
+                        $('.lNameGet').val(data.lastName);
+                        $('.userID').val(data.userID);
+                        console.log("Found User " + $('.userID').val());
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        console.log(errorThrown);
+                        alert(jQxhr.responseText);
+                    }
+                });
+            }
+        }
+
+        //CreateUser function that creates a user and an account together depending on inputted details
+        function CreateUser() {
+            if ($('.fNameCreate').val() == null || $('.fNameCreate').val().trim() === '' || $('.lNameCreate').val() == null || $('.lNameCreate').val().trim() === '') {
+                alert("First & Last Name cannot be empty!");
+            }
+            else {
+                console.log("Creating User...");
+                $.ajax({
+                    url: '/api/BankAPI/CreateUser/' + $('.fNameCreate').val() + '/' + $('.lNameCreate').val(),
+                    type: 'post',
+                    contentType: 'application/json',
+                    processData: false,
+                    success: function (data, textStatus, jQxhr) {
+                        //Notifies user that the user & account creation was succesfull 
+                        alert("Created User: " + $('.fNameCreate').val() + " " + $('.lNameCreate').val() + " - UserID: " + data.userID);
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        console.log(errorThrown);
+                        alert(jQxhr.responseText);
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

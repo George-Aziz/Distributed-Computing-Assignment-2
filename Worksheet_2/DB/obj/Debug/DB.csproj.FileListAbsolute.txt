@@ -1,0 +1,16 @@
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\bin\Debug\DB.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\bin\Debug\DB.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\bin\Debug\System.Drawing.Common.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\obj\Debug\DB.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\obj\Debug\DB.csproj.CopyComplete
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\obj\Debug\DB.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_1\DB\obj\Debug\DB.pdb
+C:\Users\George\Desktop\Worksheet_2\DB\bin\Debug\DB.dll
+C:\Users\George\Desktop\Worksheet_2\DB\bin\Debug\DB.pdb
+C:\Users\George\Desktop\Worksheet_2\DB\bin\Debug\System.Drawing.Common.dll
+C:\Users\George\Desktop\Worksheet_2\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_2\DB\obj\Debug\DB.csproj.CopyComplete
+C:\Users\George\Desktop\Worksheet_2\DB\obj\Debug\DB.dll
+C:\Users\George\Desktop\Worksheet_2\DB\obj\Debug\DB.pdb
+C:\Users\George\Desktop\Worksheet_2\DB\obj\Debug\DB.csprojAssemblyReference.cache

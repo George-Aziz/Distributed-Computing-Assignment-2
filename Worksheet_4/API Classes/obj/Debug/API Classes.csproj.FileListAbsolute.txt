@@ -1,0 +1,6 @@
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_4\Worksheet_4\API Classes\bin\Debug\API Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_4\Worksheet_4\API Classes\bin\Debug\API Classes.pdb
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_4\Worksheet_4\API Classes\obj\Debug\API Classes.csprojAssemblyReference.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_4\Worksheet_4\API Classes\obj\Debug\API Classes.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_4\Worksheet_4\API Classes\obj\Debug\API Classes.dll
+C:\Users\George\OneDrive - Curtin University of Technology Australia\Year 3\DC\Tutorials\Worksheet_4\Worksheet_4\API Classes\obj\Debug\API Classes.pdb

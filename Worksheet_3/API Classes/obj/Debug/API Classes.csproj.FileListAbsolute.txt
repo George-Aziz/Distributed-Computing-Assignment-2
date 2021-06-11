@@ -1,0 +1,13 @@
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\API Classes.dll
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\API Classes.pdb
+C:\Users\George\Desktop\Worksheet_3\API Classes\obj\Debug\API Classes.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Worksheet_3\API Classes\obj\Debug\API Classes.dll
+C:\Users\George\Desktop\Worksheet_3\API Classes\obj\Debug\API Classes.pdb
+C:\Users\George\Desktop\Worksheet_3\API Classes\obj\Debug\API Classes.csprojAssemblyReference.cache
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\System.Web.Http.dll
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\George\Desktop\Worksheet_3\API Classes\bin\Debug\System.Web.Http.xml
+C:\Users\George\Desktop\Worksheet_3\API Classes\obj\Debug\API Classes.csproj.CopyComplete
